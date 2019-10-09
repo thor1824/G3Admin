@@ -4,9 +4,12 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/albums">Albums</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/shoes">Shoes</router-link>
+      <router-link to="/shoes">Shoes</router-link> |
+      <router-link to="/ClothingArticle">ClothingOverview</router-link>
     </div>
-    <router-view/>
+    <router-view>
+    </router-view>
+
   </div>
 </template>
 

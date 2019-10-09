@@ -5,6 +5,9 @@ import AlbumsOverview from "./views/albums/AlbumsOverview";
 import AlbumsCreate from "./views/albums/AlbumsCreate";
 import AlbumsUpdate from "./views/albums/AlbumsUpdate";
 import ShoesList from "./views/shoes/ShoesList";
+import ClothingOverview from "./views/ClothingArticle/ClothingOverview";
+import ClothingEdit from "./views/ClothingArticle/ClothingEdit";
+import ClothingCreate from "./views/ClothingArticle/ClothingCreate";
 
 Vue.use(Router)
 
@@ -37,6 +40,20 @@ export default new Router({
       name: 'shoes',
       component: ShoesList
     },
+    {
+      path: '/ClothingArticle',
+      name: 'Cloths',
+      component: ClothingOverview
+    },{
+      path: '/ClothingArticle/e/:id',
+      name: 'ClothDetail',
+      component: ClothingEdit
+    },{
+      path: '/ClothingArticle/c/:id',
+      name: 'ClothCreate',
+      component: ClothingCreate
+    },
+
     {
       path: '/about',
       name: 'about',
