@@ -49,7 +49,7 @@ export default new Router({
       name: 'ClothDetail',
       component: ClothingEdit
     },{
-      path: '/ClothingArticle/c/:id',
+      path: '/ClothingArticle/c',
       name: 'ClothCreate',
       component: ClothingCreate
     },

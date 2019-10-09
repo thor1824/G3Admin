@@ -31,5 +31,20 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+    background-color:gray;
+
+  }
+  #nav{
+    background-color:lightgray;
+    width: 50%;
+    margin-left: 25%;
+    border-bottom-width: 2px;
+    border-bottom-color:#2c3e50 ;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color:gray;
   }
 </style>
